@@ -56,7 +56,7 @@ Inicio
    escreval(numeroCandidato2, " - ", nomeCandidato2, ":")
    escreval(numeroCandidato3, " - ", nomeCandidato3, ":")
    escreval("0-Branco", contBranco)
-   escreval("-1 - Votos Nulos", contNulo)
+   escreval("Votos Nulos", contNulo)
    escreval("")
    escreval("iniciando a eleição.")
 
@@ -97,5 +97,40 @@ Inicio
           contNulo <- contNulo + 1
      fimescolha
 
+     escreva("")
+     escreva("Deseja confirmar o seu voto? (s) ou (n)")
+     leia(resposta)
 
+
+     se(voto = numeroCandidato1)e(resposta="n")ENTAO
+          contCandidato1 <- contCandidato1 - 1
+     fimse
+     se(voto = numeroCandidato2)e(resposta="n")ENTAO
+          contCandidato2 <- contCandidato2 - 1
+     fimse
+     se(voto = numeroCandidato3)e(resposta="n")ENTAO
+          contCandidato3 <- contCandidato3 - 1
+     fimse
+     se(voto = 0)e(resposta="n")ENTAO
+          contBranco <- contBranco - 1
+     fimse
+     se(voto = -1)e(resposta="n")ENTAO
+          contNulo <- contNulo - 1
+     fimse
+
+    ate(resposta <> "n")
+
+
+     escreva   ("Ainda há mais eleitores para votar? (s) ou (n)")
+     leia(resposta2)
+    ate(resposta2 <> "s")
+
+
+
+   escreval("============ZERÉZIMA============")
+   escreval(nomeCandidato1, ":", contCandidato1)
+   escreval(nomeCandidato2, ":", contCandidato2)
+   escreval(nomeCandidato3, ":", contCandidato3)
+   escreval("0-Branco", contBranco)
+   escreval("Votos Nulos", contNulo)
 Fimalgoritmo
