@@ -97,7 +97,7 @@ Inicio
      caso 0
           escreval("0 - voto em branco")
           contBranco <- contBranco + 1
-     caso -1
+     outrocaso
           escreval("Voto em nulo")
           contNulo <- contNulo + 1
      fimescolha
@@ -119,9 +119,10 @@ Inicio
      se(voto = 0)e(resposta="n")ENTAO
           contBranco <- contBranco - 1
      fimse
-     se(voto = -1)e(resposta="n")ENTAO
-          contNulo <- contNulo - 1
-     fimse
+           se(voto = -1)e(resposta="n")ENTAO
+              contNulo <- contNulo - 1
+                     fimse
+
 
     ate(resposta <> "n")
 
