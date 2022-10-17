@@ -52,9 +52,9 @@ Inicio
    limpatela
    //Exibe o numero e o nome dos candidatos
    escreval("============ZERÉZIMA============")
-   escreval(numeroCandidato1, " - ", nomeCandidato1, ":",voto)
-   escreval(numeroCandidato2, " - ", nomeCandidato2, ":",voto)
-   escreval(numeroCandidato3, " - ", nomeCandidato3, ":",voto)
+   escreval(numeroCandidato1, " - ", nomeCandidato1, ":",contCandidato1)
+   escreval(numeroCandidato2, " - ", nomeCandidato2, ":",contCandidato2)
+   escreval(numeroCandidato3, " - ", nomeCandidato3, ":",contCandidato3)
    escreval("0 = Branco", contBranco)
    escreval("Votos Nulos", contNulo)
    escreval("")
