@@ -55,7 +55,7 @@ Inicio
    escreval(numeroCandidato1, " - ", nomeCandidato1, ":")
    escreval(numeroCandidato2, " - ", nomeCandidato2, ":")
    escreval(numeroCandidato3, " - ", nomeCandidato3, ":")
-   escreval("0-Branco", contBranco)
+   escreval("0 = Branco", contBranco)
    escreval("Votos Nulos", contNulo)
    escreval("")
    escreval("iniciando a eleição.")
@@ -73,6 +73,11 @@ Inicio
    limpatela
    //Estrutura de repetição para eleitores
    repita
+    escreval(numeroCandidato1, " - ", nomeCandidato1, ":")
+   escreval(numeroCandidato2, " - ", nomeCandidato2, ":")
+   escreval(numeroCandidato3, " - ", nomeCandidato3, ":")
+   escreval("0 = Branco", contBranco)
+   escreval("")
     //Estrutura de repetição para confirmação de votos
     repita
      escreva("Informe o número do candidato: ")
@@ -127,7 +132,7 @@ Inicio
 
 
 
-   escreval("============ZERÉZIMA============")
+   escreval("============Boletim de Urna============")
    escreval(nomeCandidato1, ":", contCandidato1)
    escreval(nomeCandidato2, ":", contCandidato2)
    escreval(nomeCandidato3, ":", contCandidato3)
