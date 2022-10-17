@@ -52,14 +52,10 @@ Inicio
    limpatela
    //Exibe o numero e o nome dos candidatos
    escreval("============ZERÉZIMA============")
-   escreval(numeroCandidato1, " - ", nomeCandidato1, ":")
-   escreval(numeroCandidato2, " - ", nomeCandidato2, ":")
-   escreval(numeroCandidato3, " - ", nomeCandidato3, ":")
-<<<<<<< Updated upstream
+   escreval(numeroCandidato1, " - ", nomeCandidato1, ":",voto)
+   escreval(numeroCandidato2, " - ", nomeCandidato2, ":",voto)
+   escreval(numeroCandidato3, " - ", nomeCandidato3, ":",voto)
    escreval("0 = Branco", contBranco)
-=======
-   escreval("Branco:", contBranco)
->>>>>>> Stashed changes
    escreval("Votos Nulos", contNulo)
    escreval("")
    escreval("iniciando a eleição.")
@@ -137,10 +133,6 @@ Inicio
 
         limpatelA
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
    escreval("============Boletim de Urna============")
    escreval(nomeCandidato1, ":", contCandidato1)
    escreval(nomeCandidato2, ":", contCandidato2)
