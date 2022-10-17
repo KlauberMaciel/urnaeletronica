@@ -131,7 +131,7 @@ Inicio
      leia(resposta2)
     ate(resposta2 <> "s")
 
-
+        limpatelA
 
    escreval("============Boletim de Urna============")
    escreval(nomeCandidato1, ":", contCandidato1)
