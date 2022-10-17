@@ -56,7 +56,7 @@ Inicio
    escreval(numeroCandidato2, " - ", nomeCandidato2, ":")
    escreval(numeroCandidato3, " - ", nomeCandidato3, ":")
    escreval("0-Branco", contBranco)
-   escreval("-1 - Votos Nulos", contNulo)
+   escreval("Votos Nulos", contNulo)
    escreval("")
    escreval("iniciando a eleição.")
 
@@ -121,7 +121,7 @@ Inicio
     ate(resposta <> "n")
 
 
-     escreva("Ainda há mais eleitores para votar? (s) ou (n)")
+     escreva   ("Ainda há mais eleitores para votar? (s) ou (n)")
      leia(resposta2)
     ate(resposta2 <> "s")
 
